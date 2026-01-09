@@ -8,7 +8,7 @@ module.exports = {
     version: '1.2.1',
     role: 0,
     category: 'AI',
-    author: 'MAHBUB ULLASH',
+    author: 'RUDRO BABY',
   },
 
   onStart: async function () {},
@@ -42,7 +42,7 @@ module.exports = {
     }
 
     // ---- AI THINKING MESSAGE ----
-    await message.reply('Ai thinking ☢️');
+    await message.reply('Ki hoice janu 🥺');
 
     try {
       const encodedPrompt = encodeURIComponent(upol);
