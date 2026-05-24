@@ -89,17 +89,20 @@ module.exports = {
         const guideBody = configCommand.guide?.en || "No guide available.";
         const usage = guideBody.replace(/{p}/g, prefix).replace(/{n}/g, configCommand.name);
 
-        const response = `
-  ╭───⊙
-  │ 🔶 ${configCommand.name}
-  ├── INFO
-  │ 📝 𝗗𝗲𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻: ${longDescription}
-  │ 👑 𝗔𝘂𝘁𝗵𝗼𝗿: ${author}
-  │ ⚙ 𝗚𝘂𝗶𝗱𝗲: ${usage}
-  ├── USAGE
-  │ 🔯 𝗩𝗲𝗿𝘀𝗶𝗼𝗻: ${configCommand.version || "1.0"}
-  │ ♻𝗥𝗼𝗹𝗲: ${roleText}
-  ╰────────────⊙`;
+        const response = `╔═══════ஜ۩☢۩ஜ═══════╗
+🤖 SAKIL GOAT BOT 🤖
+╚═══════ஜ۩☢۩ஜ═══════╝
+
+👑 OWNER: MD SAKIL HASAN
+⚡ DEVELOPER: MD SAKIL HASAN
+🔥 SYSTEM: CYBER GOAT BOT MODIFIED
+💀 POWERED BY SAKIL
+
+━━━━━━━━━━━━━━━━━━
+✅ BOT STATUS: ONLINE
+✅ SECURITY: ACTIVE
+✅ VERSION: SAKIL EDITION
+━━━━━━━━━━━━━━━━━━
 
         await message.reply(response);
       }
